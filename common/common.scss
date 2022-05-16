@@ -17,6 +17,10 @@ body textarea {
     color: var(--secondary);
     font-size: 24px;
   }
+
+  .header-buttons {
+    margin-top: unset;
+  }
 }
 
 @mixin boxShadow {

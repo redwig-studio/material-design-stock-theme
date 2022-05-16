@@ -14,13 +14,6 @@
     background-color 2s, transform 0.5s;
 }
 
-// make header icons semi-translucent
-.d-header-icons {
-  .d-icon {
-    color: rgba(var(--header_primary-rgb), 0.7);
-  }
-}
-
 //add shadow behind the list of topics on right in Category and Latest View
 //add shadow behind list of categories on left in Category and Latest View
 //add shadow behind topics in Latest view

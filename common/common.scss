@@ -11,6 +11,13 @@ body textarea {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 
+// make header icons semi-translucent
+.d-header-icons {
+  .d-icon {
+    color: rgb(var(--secondary));
+  }
+}
+
 @mixin boxShadow {
   // Matched from https://material.io/components/cards/
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
